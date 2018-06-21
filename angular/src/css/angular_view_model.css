@@ -1,0 +1,67 @@
+@import url(https://fonts.google.com/css?family=Oswald:700,400); 
+@import url(https://fonts.google.com/css?family=Open+Sans); 
+
+body{
+    background-color: #fff; 
+    color: #666; 
+    font-family: 'Open-Sans', arial, sans-serif; 
+    width: 960px; 
+    margin: 0 auto 0 auto; 
+}
+
+h1{
+    font-weight: normal; 
+    margin: 1em 0 0 0; 
+    float: left;
+    width: 425px; 
+    height: 90px; 
+    /*background-image: url('../img/catbot6.jpeg');
+    background-repeat: no-repeat; */
+    text-indent: 0%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+
+h2{
+    font-size: 2.4em; 
+    margin: 0 0 1em 0; 
+    color: #000; 
+    line-height: 1em; 
+    letter-spacing: -.06em; 
+    padding: 0; 
+}
+
+header{
+    display: block; 
+    height: 140px; 
+    border-bottom: 5px solid #000; 
+    margin-bottom: 30px; 
+}
+
+.third{
+    width: 320px; 
+    float: left;
+}
+
+.two-thirds{
+    width: 640px; 
+    float: left; 
+}
+
+p{margin-top: 0; }
+
+table{margin-top: 3em; }
+#timetable table{ margin-top: 0;}
+th{
+    text-align: left; 
+    text-transform: uppercase; 
+    border-bottom: 1px solid #999; 
+    font-size: 120%;
+}
+td{
+    font-size: 100%; 
+    padding: 0 1em 1em 0; 
+    vertical-align: top;
+}
+
+table.ng-scope th:nth-child(2){min-width: 11em; }
